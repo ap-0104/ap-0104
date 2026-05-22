@@ -22,20 +22,10 @@ Backend engineer specializing in email infrastructure, distributed systems, and 
 ## Personal Projects
 
 ### InboxTri — Self-Hosted Email Campaign Engine
-[inboxtri.com](https://inboxtri.com)
 
-A full-stack, production-grade email campaign engine with a high-throughput Python sending engine backed by Kafka and Redis. All sensitive data is encrypted at rest with AES-256-GCM. Includes a 5-layer email analyzer with SpamAssassin integration.
+A production-grade email campaign engine with a high-throughput sending infrastructure backed by Kafka and Redis. Includes a 5-layer email analyzer, AES-256-GCM encryption at rest, DKIM signing, IP warmup, DSN-based bounce classification, and HMAC-SHA256 signed webhooks.
 
-- Multi-SMTP campaign dispatch with round-robin and TLD-based domain routing
-- Real-time open pixel tracking, click redirects, and DSN-based bounce classification
-- Automatic DKIM RSA-2048 key generation and DNS verification per sender domain
-- IP warmup with configurable daily ramp schedule per SMTP server
-- 5-layer email analyzer: SpamAssassin + 12 CAN-SPAM rules + HTML intelligence + per-provider inbox placement prediction (Gmail/Outlook/Yahoo) + AI rewrite suggestions
-- AES-256-GCM encryption on all sensitive fields at rest
-- HMAC-SHA256 signed webhooks for all delivery events
-- Suppression management supporting 10M+ row async CSV import
-
-**Stack:** Python 3.11 · Apache Kafka · Redis · Docker · PostgreSQL · SpamAssassin
+For details reach out at anshprasad0104@gmail.com
 
 ---
 
