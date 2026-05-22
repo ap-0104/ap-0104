@@ -22,7 +22,7 @@ Backend engineer specializing in email infrastructure, distributed systems, and 
 ## Personal Projects
 
 ### InboxTri — Self-Hosted Email Campaign Engine
-[inboxtri.com](https://inboxtri.com) · [Repository](https://github.com/ap-0104/swift-mail-engine)
+[inboxtri.com](https://inboxtri.com)
 
 A full-stack, production-grade email campaign engine with a high-throughput Python sending engine backed by Kafka and Redis. All sensitive data is encrypted at rest with AES-256-GCM. Includes a 5-layer email analyzer with SpamAssassin integration.
 
