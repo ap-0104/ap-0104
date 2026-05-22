@@ -121,7 +121,7 @@ Designed and shipped a multi-provider inbox placement scoring system as a Docker
 - Cold-start domain health scores in under 3 seconds
 - Dockerized microservice at full production load
 
-**Stack:** Python · Kubernetes · Docker · SPF/DKIM/DMARC
+**Stack:** Python · Docker · SPF/DKIM/DMARC
 
 ---
 
