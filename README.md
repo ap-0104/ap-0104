@@ -2,7 +2,7 @@
 
 **Senior Backend Infrastructure Engineer | Technical Product Owner**
 
-Backend engineer specializing in email infrastructure, distributed systems, and high-throughput SaaS platforms. I build the backend layer that determines whether a platform succeeds at scale — the part most users never see but which governs every metric that matters.
+Backend engineer specializing in email infrastructure, distributed systems, and high-throughput SaaS platforms. I build the backend layer that determines whether a platform succeeds at scale the part most users never see but which governs every metric that matters.
 
 ---
 
@@ -12,16 +12,16 @@ Backend engineer specializing in email infrastructure, distributed systems, and 
 
 - Processed **100M+ emails/day** at **350–400 emails/sec** with zero downtime
 - Scaled domain warmup from **40K to 400K+ emails/day per domain** over 21 days
-- Rebuilt a cascading SMTP pipeline from scratch — **600× throughput improvement**
+- Rebuilt a cascading SMTP pipeline from scratch **600× throughput improvement**
 - Built inbox placement scoring with **30+ RBL checks** and **95% spam detection accuracy**
-- Deep expertise in **SPF, DKIM, DMARC, DNS, IP reputation** — production every day
+- Deep expertise in **SPF, DKIM, DMARC, DNS, IP reputation** production every day
 - Continuously research how Gmail, Outlook, and Yahoo evolve their filtering logic through proprietary methods
 
 ---
 
 ## Personal Projects
 
-### InboxTri — Self-Hosted Email Campaign Engine
+### Self-Hosted Email Campaign Engine
 
 A production-grade email campaign engine with a high-throughput sending infrastructure backed by Kafka and Redis. Includes a 5-layer email analyzer, AES-256-GCM encryption at rest, DKIM signing, IP warmup, DSN-based bounce classification, and HMAC-SHA256 signed webhooks.
 
@@ -31,9 +31,9 @@ For details reach out at anshprasad0104@gmail.com
 
 ## Company Projects
 
-### Mailcrux — SMTP & Email Infrastructure
+### Mailcrux SMTP & Email Infrastructure
 
-Took full ownership of the Mailcrux backend on Ruby on Rails — engineered a high-throughput SMTP delivery system with isolated IP pools, idempotent sending queues, and per-sender authentication pipelines implementing circuit breaker patterns to prevent reputation bleed between customer segments.
+Took full ownership of the Mailcrux backend on Ruby on Rails engineered a high-throughput SMTP delivery system with isolated IP pools, idempotent sending queues, and per-sender authentication pipelines implementing circuit breaker patterns to prevent reputation bleed between customer segments.
 
 | Metric | Value |
 |--------|-------|
@@ -52,9 +52,9 @@ Took full ownership of the Mailcrux backend on Ruby on Rails — engineered a hi
 
 ---
 
-### Sendcrux — Campaign Orchestration Engine
+### Sendcrux Campaign Orchestration Engine
 
-Designed the multi-ESP orchestration engine — a fault-tolerant sending layer with real-time capacity validation, bounce classification, self-healing campaign scheduling, retry strategies, and dead letter queue handling across multiple ESP providers.
+Designed the multi-ESP orchestration engine a fault-tolerant sending layer with real-time capacity validation, bounce classification, self-healing campaign scheduling, retry strategies, and dead letter queue handling across multiple ESP providers.
 
 | Metric | Value |
 |--------|-------|
@@ -73,7 +73,7 @@ Designed the multi-ESP orchestration engine — a fault-tolerant sending layer w
 
 ---
 
-### WarmupIP — Autonomous Domain Warmup Engine
+### WarmupIP Autonomous Domain Warmup Engine
 
 Engineered an autonomous domain warmup engine with provider-aware ramp-up scheduling that adapts sending velocity in real-time using backpressure signals from bounce rates and ESP feedback loops, scaling each domain from 40K to 400K+ emails/day over 21 days while maintaining sender reputation above deliverability thresholds.
 
@@ -87,16 +87,16 @@ Engineered an autonomous domain warmup engine with provider-aware ramp-up schedu
 - Backpressure signals from bounce rates and ESP feedback loops
 - Scales domains from 40K to 400K+ emails/day over 21 days
 - Reputation monitoring above deliverability thresholds
-- Engagement simulation — opens, clicks, replies
+- Engagement simulation opens, clicks, replies
 - Gradual volume scaling with automated adjustment
 
 **Stack:** Laravel · RabbitMQ · Redis · Python · Docker
 
 ---
 
-### Inbox Placement Platform — Deliverability Testing & ML Scoring
+### Inbox Placement Platform Deliverability Testing & ML Scoring
 
-Designed and shipped a multi-provider inbox placement scoring system as a Dockerized microservice, integrating SPF/DKIM/DMARC validation, 30+ real-time RBL checks, and an ML-backed spam classification pipeline achieving 95% detection accuracy — delivering cold-start domain health scores in under 3 seconds at full production load.
+Designed and shipped a multi-provider inbox placement scoring system as a Dockerized microservice, integrating SPF/DKIM/DMARC validation, 30+ real-time RBL checks, and an ML-backed spam classification pipeline achieving 95% detection accuracy delivering cold-start domain health scores in under 3 seconds at full production load.
 
 | Metric | Value |
 |--------|-------|
@@ -104,7 +104,7 @@ Designed and shipped a multi-provider inbox placement scoring system as a Docker
 | Detection accuracy | 95% |
 | Score latency | <3 seconds |
 
-- Placement detection via metadata — no email opening required
+- Placement detection via metadata no email opening required
 - SPF/DKIM/DMARC validation pipeline
 - 30+ real-time RBL blacklist integrations
 - ML-backed spam classification with 95% detection accuracy
@@ -115,9 +115,9 @@ Designed and shipped a multi-provider inbox placement scoring system as a Docker
 
 ---
 
-### Master Inbox — Unified Multi-Provider Mailbox Platform
+### Master Inbox Unified Multi-Provider Mailbox Platform
 
-Built the Master Inbox platform integrating Google Workspace Admin, Gmail API, IMAP, Microsoft Graph API, Azure AD Admin, and Microsoft 365 Admin — consolidating multi-provider mailboxes into a unified interface with AI-powered reply summarization, sentiment detection, and automated responses.
+Built the Master Inbox platform integrating Google Workspace Admin, Gmail API, IMAP, Microsoft Graph API, Azure AD Admin, and Microsoft 365 Admin consolidating multi-provider mailboxes into a unified interface with AI-powered reply summarization, sentiment detection, and automated responses.
 
 | Metric | Value |
 |--------|-------|
